@@ -177,7 +177,7 @@ export default function Portfolio() {
       description:
         "Designed and developed a modern, responsive portfolio website using React, Next.js, and Framer Motion. Features dynamic animations, dark mode support, and optimized performance with a clean, professional design showcasing projects and experience.",
       tech: ["Next.js", "React", "Framer Motion", "Tailwind CSS"],
-      github: "#",
+      github: "https://github.com/anvil204051/PersonalProfile",
       demo: "#",
       date: "July 2025",
       showLinks: true,
