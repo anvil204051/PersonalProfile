@@ -30,34 +30,6 @@ portfolio-website/
 └── lib/                # Utility functions
 ```
 
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/anvil204051/PersonalProfile.git
-   cd PersonalProfile
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   pnpm install
-   ```
-
-3. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   pnpm dev
-   ```
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-## 📝 License
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 👤 Author
 **Anvay Moghe**
 - GitHub: [@anvil204051](https://github.com/anvil204051)
