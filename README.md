@@ -32,9 +32,3 @@ portfolio-website/
 
 ## 👤 Author
 **Anvay Moghe**
-- GitHub: [@anvil204051](https://github.com/anvil204051)
-- LinkedIn: [Anvay Moghe](https://www.linkedin.com/in/anvay-moghe/)
-
----
-
-⭐ If you find this project helpful, please give it a star! 
