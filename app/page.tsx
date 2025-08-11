@@ -22,12 +22,12 @@ export default function Portfolio() {
       setLoadingProgress((prev) => {
         if (prev >= 100) {
           clearInterval(timer)
-          setTimeout(() => setIsLoading(false), 500)
+          setTimeout(() => setIsLoading(false), 200) // Reduced from 500ms to 200ms
           return 100
         }
-        return prev + Math.random() * 15
+        return prev + Math.random() * 30 // Increased from 15 to 30 for faster progress
       })
-    }, 100)
+    }, 50) // Reduced from 100ms to 50ms
 
     return () => clearInterval(timer)
   }, [])
@@ -202,13 +202,14 @@ export default function Portfolio() {
 
   const professionalExperiences = [
     {
-      title: "Research Scholar",
-      company: "Lumiere Research Program",
-      location: "Remote",
-      period: "June 2022 - Sep. 2022",
+      title: "Instructional Design Assistant",
+      company: "University of Maryland",
+      location: "College Park, MD",
+      period: "July 2025 - Present",
       description: [
-        "Developed a machine learning model utilizing Bayesian probabilistic techniques to automate the process of data cleansing, improving accuracy in detecting and correcting errors in large datasets.",
-        "Implemented probabilistic algorithms to identify misspellings and impute missing values, achieving high precision in pattern recognition across diverse data domains.",
+        "Reviewed and quality-checked newly developed online courses for accessibility, design consistency, and user experience.",
+        "Edited and updated front-end content using university learning platforms (e.g., ELMS-Canvas), ensuring smooth navigation and visual clarity.",
+        "Collaborated with instructional designers and faculty to implement improvements based on feedback and usability best practices.",
       ],
     },
     {
@@ -219,6 +220,16 @@ export default function Portfolio() {
       description: [
         "Led a project on Tesla stock price prediction using linear regression, exploring 20+ models to identify the most accurate scatter plots and graphical projections.",
         "Gained hands-on experience with Neural Networks, Support Vector Machines, and variance functions, using software and hardware provided by Hewlett Packard Enterprise.",
+      ],
+    },
+    {
+      title: "Research Scholar",
+      company: "Lumiere Research Program",
+      location: "Remote",
+      period: "June 2022 - Sep. 2022",
+      description: [
+        "Developed a machine learning model utilizing Bayesian probabilistic techniques to automate the process of data cleansing, improving accuracy in detecting and correcting errors in large datasets.",
+        "Implemented probabilistic algorithms to identify misspellings and impute missing values, achieving high precision in pattern recognition across diverse data domains.",
       ],
     },
   ]
