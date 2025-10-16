@@ -216,7 +216,7 @@ export default function Portfolio() {
       title: "Artificial Intelligence Intern",
       company: "Corporate Gurukul",
       location: "Remote",
-      period: "June 2022 - Aug. 2022",
+      period: "June 2022 - Sept. 2022",
       description: [
         "Led a project on Tesla stock price prediction using linear regression, exploring 20+ models to identify the most accurate scatter plots and graphical projections.",
         "Gained hands-on experience with Neural Networks, Support Vector Machines, and variance functions, using software and hardware provided by Hewlett Packard Enterprise.",
@@ -226,7 +226,7 @@ export default function Portfolio() {
       title: "Research Scholar",
       company: "Lumiere Research Program",
       location: "Remote",
-      period: "June 2022 - Sep. 2022",
+      period: "June 2022 - Sept. 2022",
       description: [
         "Developed a machine learning model utilizing Bayesian probabilistic techniques to automate the process of data cleansing, improving accuracy in detecting and correcting errors in large datasets.",
         "Implemented probabilistic algorithms to identify misspellings and impute missing values, achieving high precision in pattern recognition across diverse data domains.",
